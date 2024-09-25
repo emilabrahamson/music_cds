@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 3%;
+}
+
+.container {
+    max-width: 680px;
+    margin: auto;
+}
+
+header {
+    max-width: 680px;
+    margin: auto;
+}
+
+main form {
+    display: flex;
+    gap: 10px;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff1a1a;
+}
+
+@media (max-width: 750px) {
+
+    main form {
+        flex-direction: column;
+    }
+}
